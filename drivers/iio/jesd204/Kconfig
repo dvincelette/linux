@@ -1,8 +1,8 @@
 
-menuconfig JESD204
-	tristate "JESD204 High-Speed Serial Interface Support"
+menuconfig IIO_JESD204
+	tristate "JESD204 High-Speed Serial Interface Support (IIO)"
 
-if JESD204
+if IIO_JESD204
 
 config ALTERA_ARRIA10_JESD204_PHY
 	tristate "Altera Arria10 JESD204 PHY Support"
