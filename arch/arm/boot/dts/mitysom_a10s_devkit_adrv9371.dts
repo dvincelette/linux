@@ -295,3 +295,12 @@
 		adi,signal-source = <SOURCE_VCO>;
 	};
 };
+
+&porta {
+	fmc_vadj_en {
+		gpio-hog;
+		gpios = <0 0>;
+		output-high;
+		line-name = "fmc-vadj-en";
+	};
+};
