@@ -793,7 +793,8 @@ dtb-$(CONFIG_ARCH_SOCFPGA) += \
 	socfpga_arria10_swvp.dtb \
 	mitysom_a10s_devkit_gen1_adrv9009.dtb \
 	mitysom_a10s_devkit_gen2_adrv9009.dtb \
-	mitysom_a10s_devkit_adrv9371.dtb \
+	mitysom_a10s_devkit_gen1_adrv9371.dtb \
+	mitysom_a10s_devkit_gen2_adrv9371.dtb \
 	socfpga_cyclone5_mcvevk.dtb \
 	socfpga_cyclone5_socdk.dtb \
 	socfpga_cyclone5_de0_sockit.dtb \
